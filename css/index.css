@@ -1,0 +1,59 @@
+*{margin: 0;padding: 0;font: 14px/1.5 "微软雅黑"}
+#createnotes {
+    width:70px;
+    height: 30px;
+    border-radius: 5px;
+    border:none;
+    background: #38C738;
+    color: #fff;
+    font-size: 14px;
+}
+.m-note{
+    width: 210px;
+    height: 260px;
+    background-color: #FFF046;
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    position: absolute;
+    left: 200px;
+    padding: 10px;
+}
+.m-note .u-close{
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    background: url(../img/deleteButton.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    display: none;
+    cursor: pointer;
+}
+.m-note:hover .u-close{
+    display: block;
+}
+.m-note .u-editor{
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 30px;
+    top: 10px;
+    outline: none;
+    /*overflow: hidden;*/
+}
+.m-note .u-time{
+    line-height: 30px;
+    height: 30px;
+    background-color: #DDBB00;
+    border-top: 1px solid #AA8800;
+    /*margin: 0 -10px;*/
+    position: absolute;
+    /*left: 10px;*/
+    left: 0px;
+    right: 0px;
+    /*top: 250px;*/
+    bottom: 0px;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    padding-left: 10px;
+    width: 220px;
+}
